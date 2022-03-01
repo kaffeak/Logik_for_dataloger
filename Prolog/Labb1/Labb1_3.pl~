@@ -1,0 +1,6 @@
+partstring([],_,_).
+
+partstring([Head|Tail],L,F) :-
+
+    partstring(Tail,L,F).
+
